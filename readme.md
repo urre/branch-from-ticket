@@ -1,22 +1,30 @@
-# Branch from Ticket
+<h1>
+<img src="https://cdn.svgporn.com/logos/git-icon.svg" width="24">
+Git Branch name from Jira Ticket
+<img src="https://cdn.svgporn.com/logos/jira.svg" width="24">
+</h1>
 
 Chrome Extension that creates a git branch name from a Jira Ticket number and title.
 
 ### Example
 
-1. Visit a Jira ticket, example:
+1. Visit a Jira ticket url https://coolcompany.atlassian.net/browse/PROJX-01
 
-![](https://res.cloudinary.com/urre/image/upload/v1568209988/screenshots/nwdinp5hyycucsfshfw8.png)
+<img width="300" src="https://res.cloudinary.com/urre/image/upload/v1568231456/screenshots/lguwswuwq3xwdin7udbc.png
+">
+
+***
 
 2. Click the Extension browser button
 
-![](https://res.cloudinary.com/urre/image/upload/v1568211153/screenshots/je8zbdhks6fdz9h47jec.png)
+<img width="300" src="https://res.cloudinary.com/urre/image/upload/v1568231381/screenshots/j33llws1axqs8iwejqif.png">
 
+***
 
 3. 💥 The branch name ↓ is now in you clipboard. Just ⌘ + V!
 
 ```
-IS-0001-this-is-the-ticket-title
+PROJX-01-cool-ticket-name
 ```
 
 ---
