@@ -1,0 +1,26 @@
+{
+  "name": "branchfromticket",
+  "version": "1.0.0",
+  "manifest_version" : 2,
+  "description": "Chrome Extension for creating a branch name from ticket nr and ticket title",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "background",
+    "unlimitedStorage",
+    "storage",
+    "clipboardWrite",
+    "tabs",
+    "activeTab",
+    "http://*/",
+    "https://*/",
+    "*://*/*",
+    "<all_urls>"
+  ],
+  "browser_action": {
+    "default_title": "Branch from Ticket",
+    "default_icon": "icon.png"
+  }
+}
