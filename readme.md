@@ -1,6 +1,6 @@
 # Branch from Ticket
 
-Creates a git branch name from a Jira Ticket number and title.
+Chrome Extension that creates a git branch name from a Jira Ticket number and title.
 
 ### Example
 
@@ -10,7 +10,10 @@ Creates a git branch name from a Jira Ticket number and title.
 
 2. Click the Extension browser button
 
-3. 💥 This string is now in you clipboard. Just ⌘ + V!
+![](https://res.cloudinary.com/urre/image/upload/v1568211153/screenshots/je8zbdhks6fdz9h47jec.png)
+
+
+3. 💥 The branch name ↓ is now in you clipboard. Just ⌘ + V!
 
 ```
 IS-0001-this-is-the-ticket-title
