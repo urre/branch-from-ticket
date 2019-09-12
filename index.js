@@ -26,7 +26,7 @@ function copyToClipboard(text) {
 
 // Get ticket title and ticket number
 const heading = document.querySelector('h1[data-test-id="issue.views.issue-base.foundation.summary.heading"]')
-const ticketLink = document.querySelector('#jira-issue-header a[href*=IS-').href
+const ticketLink = document.querySelector('#jira-issue-header div[class^=BreadcrumbsItem] a').href
 const ticketNr = ticketLink.substring(ticketLink.lastIndexOf('/') + 1);
 
 // Construct branch name
