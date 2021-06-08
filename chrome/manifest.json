@@ -1,12 +1,19 @@
 {
   "name": "branchfromticket",
   "version": "1.0.0",
-  "manifest_version" : 2,
+  "manifest_version": 2,
   "description": "Chrome Extension for creating a branch name from ticket nr and ticket title",
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  },
+  "content_scripts": [
+		{
+			"matches": [
+				"*://*.atlassian.net/*"
+			],
+			"js": [
+				"index.js"
+			],
+			"run_at": "document_end"
+		}
+  ],
   "permissions": [
     "background",
     "unlimitedStorage",
@@ -14,10 +21,7 @@
     "clipboardWrite",
     "tabs",
     "activeTab",
-    "http://*/",
-    "https://*/",
-    "*://*/*",
-    "<all_urls>"
+    "*://*.atlassian.net/*"
   ],
   "browser_action": {
     "default_title": "Branch from Ticket",
