@@ -10,7 +10,7 @@ Chrome Extension that creates a git branch name from a Jira Ticket number and ti
 
 1. Visit a JIRA ticket URL https://coolcompany.atlassian.net/browse/PROJ-123
 
-<img width="300" src="https://res.cloudinary.com/urre/image/upload/v1623141482/screenshots/mrzdmwz0fcfm74ua5xbj.png">
+![Screenshot](https://res.cloudinary.com/
 
 ***
 
